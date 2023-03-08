@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".view.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageviewopengallery"
+        android:src="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"></ImageView>
+
+    <EditText
+        android:layout_margin="10dp"
+        android:hint="enyter product name"
+        android:id="@+id/edittextimagename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+
+    <Button
+        android:id="@+id/buttonopengallery"
+        android:text="load"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+    
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>
+    <ProgressBar
+        android:id="@+id/progressbaruploadimage"
+        android:visibility="gone"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ProgressBar>
+</LinearLayout>

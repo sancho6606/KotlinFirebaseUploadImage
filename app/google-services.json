@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "116397088148",
+    "project_id": "kotlinfirebaseuploadimag-1572a",
+    "storage_bucket": "kotlinfirebaseuploadimag-1572a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116397088148:android:a2f55c62f21922a2e98381",
+        "android_client_info": {
+          "package_name": "com.sancho.kotlinfirebaseuploadimage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "116397088148-8ss30ark8dlv1ep8h4up7rdhl2oas6n6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbDO5NEpg7dtGlP1KPaV1m5e-7bXTvLtI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "116397088148-8ss30ark8dlv1ep8h4up7rdhl2oas6n6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
